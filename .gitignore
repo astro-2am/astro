@@ -1,0 +1,69 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+node_modules
+dist
+dist-ssr
+*.local
+.env
+.env.local
+.env.example
+README.md
+
+# Editor directories and files
+.vscode/*
+!.vscode/extensions.json
+.idea
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# ---------- Additional recommended ignores ----------
+# Catch any env files you may add later
+.env*
+
+# Linter caches
+.eslintcache
+.stylelintcache
+
+# Test coverage reports
+coverage/
+*.lcov
+
+# (Optional) Next.js build artefacts – safe even if you never use Next
+.next/
+build/
+
+# Generic log files
+*.log
+
+# Windows system files
+Thumbs.db
+.Desktop.ini
+
+# Vite cache
+.vite/
+
+# Optional lock files (uncomment the one you want to ignore)
+# package-lock.json
+# yarn.lock
+# pnpm-lock.yaml
+
+# Misc temp directories
+.cache/
+.tmp/
+
+# Sensitive files - API keys, credentials
+*.csv
+razorpay*.csv
+razorpay_test_api_keys_1779442596757.csv
+*.csv
